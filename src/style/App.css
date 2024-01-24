@@ -1,0 +1,16 @@
+.globalContainer{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+
+}
+header,footer{
+  flex-basis: 10vh;
+}
+main{
+  flex-basis: 80vh;
+}
+/* если есть класс active, то элемент окрашивается. Для NavLink */
+.active{
+  color: red;
+}
